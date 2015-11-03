@@ -1,0 +1,635 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74081E641BE8069700DCFFD0 /* tacobell.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E5E1BE8069700DCFFD0 /* tacobell.png */; };
+		74081E651BE8069700DCFFD0 /* subway.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E5F1BE8069700DCFFD0 /* subway.png */; };
+		74081E661BE8069700DCFFD0 /* panera.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E601BE8069700DCFFD0 /* panera.png */; };
+		74081E671BE8069700DCFFD0 /* einsteinbagels.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E611BE8069700DCFFD0 /* einsteinbagels.png */; };
+		74081E681BE8069700DCFFD0 /* chickfila.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E621BE8069700DCFFD0 /* chickfila.png */; };
+		74081E691BE8069700DCFFD0 /* burgerking.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E631BE8069700DCFFD0 /* burgerking.png */; };
+		74081E6F1BE8070200DCFFD0 /* burger.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E6A1BE8070200DCFFD0 /* burger.wav */; };
+		74081E701BE8070200DCFFD0 /* greasy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E6B1BE8070200DCFFD0 /* greasy.wav */; };
+		74081E721BE8070200DCFFD0 /* chicken.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E6D1BE8070200DCFFD0 /* chicken.wav */; };
+		74081E731BE8070200DCFFD0 /* beer.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E6E1BE8070200DCFFD0 /* beer.wav */; };
+		74081E761BE812D500DCFFD0 /* rathskeller.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E751BE812D500DCFFD0 /* rathskeller.png */; };
+		74081E781BE813CF00DCFFD0 /* pandaexpress.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E771BE813CF00DCFFD0 /* pandaexpress.png */; };
+		74081E7A1BE8171000DCFFD0 /* fattening.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E791BE8171000DCFFD0 /* fattening.wav */; };
+		74081E7C1BE8183500DCFFD0 /* doh.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E7B1BE8183500DCFFD0 /* doh.wav */; };
+		74081E7E1BE8184100DCFFD0 /* something.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E7D1BE8184100DCFFD0 /* something.wav */; };
+		74081E801BE8184800DCFFD0 /* woohoo.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E7F1BE8184800DCFFD0 /* woohoo.wav */; };
+		74081E821BE81B9400DCFFD0 /* danish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 74081E811BE81B9400DCFFD0 /* danish.wav */; };
+		74081E861BE81DAE00DCFFD0 /* jazzmans.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E851BE81DAE00DCFFD0 /* jazzmans.png */; };
+		74081E8A1BE824B500DCFFD0 /* randalls.png in Resources */ = {isa = PBXBuildFile; fileRef = 74081E891BE824B500DCFFD0 /* randalls.png */; };
+		74855FF51BE04BA200CD570F /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74855FF41BE04BA200CD570F /* Restaurant.swift */; };
+		7488276B1BE3348B00CE9116 /* ColorStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7488276A1BE3348B00CE9116 /* ColorStruct.swift */; };
+		74A853CC1BDD9C2E009C2CCA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A853CB1BDD9C2E009C2CCA /* AppDelegate.swift */; };
+		74A853CE1BDD9C2E009C2CCA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A853CD1BDD9C2E009C2CCA /* ViewController.swift */; };
+		74A853D11BDD9C2E009C2CCA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A853CF1BDD9C2E009C2CCA /* Main.storyboard */; };
+		74A853D41BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74A853D21BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodeld */; };
+		74A853D61BDD9C2E009C2CCA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74A853D51BDD9C2E009C2CCA /* Assets.xcassets */; };
+		74A853D91BDD9C2E009C2CCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74A853D71BDD9C2E009C2CCA /* LaunchScreen.storyboard */; };
+		74A853E41BDD9C2E009C2CCA /* RestaurantEZTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A853E31BDD9C2E009C2CCA /* RestaurantEZTests.swift */; };
+		74A853EF1BDD9C2E009C2CCA /* RestaurantEZUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A853EE1BDD9C2E009C2CCA /* RestaurantEZUITests.swift */; };
+		74A853FD1BDDA10B009C2CCA /* RestaurantClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A853FC1BDDA10B009C2CCA /* RestaurantClass.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		74A853E01BDD9C2E009C2CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A853C01BDD9C2E009C2CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A853C71BDD9C2E009C2CCA;
+			remoteInfo = RestaurantEZ;
+		};
+		74A853EB1BDD9C2E009C2CCA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 74A853C01BDD9C2E009C2CCA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74A853C71BDD9C2E009C2CCA;
+			remoteInfo = RestaurantEZ;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		74081E5E1BE8069700DCFFD0 /* tacobell.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tacobell.png; sourceTree = "<group>"; };
+		74081E5F1BE8069700DCFFD0 /* subway.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = subway.png; sourceTree = "<group>"; };
+		74081E601BE8069700DCFFD0 /* panera.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = panera.png; sourceTree = "<group>"; };
+		74081E611BE8069700DCFFD0 /* einsteinbagels.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = einsteinbagels.png; sourceTree = "<group>"; };
+		74081E621BE8069700DCFFD0 /* chickfila.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chickfila.png; sourceTree = "<group>"; };
+		74081E631BE8069700DCFFD0 /* burgerking.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = burgerking.png; sourceTree = "<group>"; };
+		74081E6A1BE8070200DCFFD0 /* burger.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = burger.wav; sourceTree = "<group>"; };
+		74081E6B1BE8070200DCFFD0 /* greasy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = greasy.wav; sourceTree = "<group>"; };
+		74081E6D1BE8070200DCFFD0 /* chicken.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = chicken.wav; sourceTree = "<group>"; };
+		74081E6E1BE8070200DCFFD0 /* beer.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beer.wav; sourceTree = "<group>"; };
+		74081E751BE812D500DCFFD0 /* rathskeller.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rathskeller.png; sourceTree = "<group>"; };
+		74081E771BE813CF00DCFFD0 /* pandaexpress.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pandaexpress.png; sourceTree = "<group>"; };
+		74081E791BE8171000DCFFD0 /* fattening.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = fattening.wav; sourceTree = "<group>"; };
+		74081E7B1BE8183500DCFFD0 /* doh.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = doh.wav; sourceTree = "<group>"; };
+		74081E7D1BE8184100DCFFD0 /* something.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = something.wav; sourceTree = "<group>"; };
+		74081E7F1BE8184800DCFFD0 /* woohoo.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = woohoo.wav; sourceTree = "<group>"; };
+		74081E811BE81B9400DCFFD0 /* danish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = danish.wav; sourceTree = "<group>"; };
+		74081E851BE81DAE00DCFFD0 /* jazzmans.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = jazzmans.png; sourceTree = "<group>"; };
+		74081E891BE824B500DCFFD0 /* randalls.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = randalls.png; sourceTree = "<group>"; };
+		74855FF41BE04BA200CD570F /* Restaurant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		7488276A1BE3348B00CE9116 /* ColorStruct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorStruct.swift; sourceTree = "<group>"; };
+		74A853C81BDD9C2E009C2CCA /* RestaurantEZ.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RestaurantEZ.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A853CB1BDD9C2E009C2CCA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		74A853CD1BDD9C2E009C2CCA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		74A853D01BDD9C2E009C2CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74A853D31BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RestaurantEZ.xcdatamodel; sourceTree = "<group>"; };
+		74A853D51BDD9C2E009C2CCA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74A853D81BDD9C2E009C2CCA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74A853DA1BDD9C2E009C2CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A853DF1BDD9C2E009C2CCA /* RestaurantEZTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantEZTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A853E31BDD9C2E009C2CCA /* RestaurantEZTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantEZTests.swift; sourceTree = "<group>"; };
+		74A853E51BDD9C2E009C2CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A853EA1BDD9C2E009C2CCA /* RestaurantEZUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantEZUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		74A853EE1BDD9C2E009C2CCA /* RestaurantEZUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantEZUITests.swift; sourceTree = "<group>"; };
+		74A853F01BDD9C2E009C2CCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A853FC1BDDA10B009C2CCA /* RestaurantClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestaurantClass.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A853C51BDD9C2E009C2CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853DC1BDD9C2E009C2CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853E71BDD9C2E009C2CCA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74081E741BE8070B00DCFFD0 /* audio */ = {
+			isa = PBXGroup;
+			children = (
+				74081E6A1BE8070200DCFFD0 /* burger.wav */,
+				74081E6B1BE8070200DCFFD0 /* greasy.wav */,
+				74081E7B1BE8183500DCFFD0 /* doh.wav */,
+				74081E7F1BE8184800DCFFD0 /* woohoo.wav */,
+				74081E811BE81B9400DCFFD0 /* danish.wav */,
+				74081E791BE8171000DCFFD0 /* fattening.wav */,
+				74081E6D1BE8070200DCFFD0 /* chicken.wav */,
+				74081E7D1BE8184100DCFFD0 /* something.wav */,
+				74081E6E1BE8070200DCFFD0 /* beer.wav */,
+			);
+			name = audio;
+			sourceTree = "<group>";
+		};
+		748827691BE3303900CE9116 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				74081E771BE813CF00DCFFD0 /* pandaexpress.png */,
+				74081E5E1BE8069700DCFFD0 /* tacobell.png */,
+				74081E751BE812D500DCFFD0 /* rathskeller.png */,
+				74081E851BE81DAE00DCFFD0 /* jazzmans.png */,
+				74081E891BE824B500DCFFD0 /* randalls.png */,
+				74081E5F1BE8069700DCFFD0 /* subway.png */,
+				74081E601BE8069700DCFFD0 /* panera.png */,
+				74081E611BE8069700DCFFD0 /* einsteinbagels.png */,
+				74081E621BE8069700DCFFD0 /* chickfila.png */,
+				74081E631BE8069700DCFFD0 /* burgerking.png */,
+			);
+			name = images;
+			path = RestaurantEZ;
+			sourceTree = SOURCE_ROOT;
+		};
+		74A853BF1BDD9C2E009C2CCA = {
+			isa = PBXGroup;
+			children = (
+				74A853CA1BDD9C2E009C2CCA /* RestaurantEZ */,
+				74A853E21BDD9C2E009C2CCA /* RestaurantEZTests */,
+				74A853ED1BDD9C2E009C2CCA /* RestaurantEZUITests */,
+				74A853C91BDD9C2E009C2CCA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		74A853C91BDD9C2E009C2CCA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74A853C81BDD9C2E009C2CCA /* RestaurantEZ.app */,
+				74A853DF1BDD9C2E009C2CCA /* RestaurantEZTests.xctest */,
+				74A853EA1BDD9C2E009C2CCA /* RestaurantEZUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74A853CA1BDD9C2E009C2CCA /* RestaurantEZ */ = {
+			isa = PBXGroup;
+			children = (
+				74A853CB1BDD9C2E009C2CCA /* AppDelegate.swift */,
+				74A853CD1BDD9C2E009C2CCA /* ViewController.swift */,
+				74A853CF1BDD9C2E009C2CCA /* Main.storyboard */,
+				7488276A1BE3348B00CE9116 /* ColorStruct.swift */,
+				74A853FC1BDDA10B009C2CCA /* RestaurantClass.swift */,
+				74855FF41BE04BA200CD570F /* Restaurant.swift */,
+				74081E741BE8070B00DCFFD0 /* audio */,
+				748827691BE3303900CE9116 /* images */,
+				74A853D51BDD9C2E009C2CCA /* Assets.xcassets */,
+				74A853D71BDD9C2E009C2CCA /* LaunchScreen.storyboard */,
+				74A853DA1BDD9C2E009C2CCA /* Info.plist */,
+				74A853D21BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodeld */,
+			);
+			path = RestaurantEZ;
+			sourceTree = "<group>";
+		};
+		74A853E21BDD9C2E009C2CCA /* RestaurantEZTests */ = {
+			isa = PBXGroup;
+			children = (
+				74A853E31BDD9C2E009C2CCA /* RestaurantEZTests.swift */,
+				74A853E51BDD9C2E009C2CCA /* Info.plist */,
+			);
+			path = RestaurantEZTests;
+			sourceTree = "<group>";
+		};
+		74A853ED1BDD9C2E009C2CCA /* RestaurantEZUITests */ = {
+			isa = PBXGroup;
+			children = (
+				74A853EE1BDD9C2E009C2CCA /* RestaurantEZUITests.swift */,
+				74A853F01BDD9C2E009C2CCA /* Info.plist */,
+			);
+			path = RestaurantEZUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74A853C71BDD9C2E009C2CCA /* RestaurantEZ */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A853F31BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZ" */;
+			buildPhases = (
+				74A853C41BDD9C2E009C2CCA /* Sources */,
+				74A853C51BDD9C2E009C2CCA /* Frameworks */,
+				74A853C61BDD9C2E009C2CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RestaurantEZ;
+			productName = RestaurantEZ;
+			productReference = 74A853C81BDD9C2E009C2CCA /* RestaurantEZ.app */;
+			productType = "com.apple.product-type.application";
+		};
+		74A853DE1BDD9C2E009C2CCA /* RestaurantEZTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A853F61BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZTests" */;
+			buildPhases = (
+				74A853DB1BDD9C2E009C2CCA /* Sources */,
+				74A853DC1BDD9C2E009C2CCA /* Frameworks */,
+				74A853DD1BDD9C2E009C2CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A853E11BDD9C2E009C2CCA /* PBXTargetDependency */,
+			);
+			name = RestaurantEZTests;
+			productName = RestaurantEZTests;
+			productReference = 74A853DF1BDD9C2E009C2CCA /* RestaurantEZTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		74A853E91BDD9C2E009C2CCA /* RestaurantEZUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74A853F91BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZUITests" */;
+			buildPhases = (
+				74A853E61BDD9C2E009C2CCA /* Sources */,
+				74A853E71BDD9C2E009C2CCA /* Frameworks */,
+				74A853E81BDD9C2E009C2CCA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74A853EC1BDD9C2E009C2CCA /* PBXTargetDependency */,
+			);
+			name = RestaurantEZUITests;
+			productName = RestaurantEZUITests;
+			productReference = 74A853EA1BDD9C2E009C2CCA /* RestaurantEZUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74A853C01BDD9C2E009C2CCA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "The Modern Tech";
+				TargetAttributes = {
+					74A853C71BDD9C2E009C2CCA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P2PHUV57V5;
+					};
+					74A853DE1BDD9C2E009C2CCA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P2PHUV57V5;
+						TestTargetID = 74A853C71BDD9C2E009C2CCA;
+					};
+					74A853E91BDD9C2E009C2CCA = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P2PHUV57V5;
+						TestTargetID = 74A853C71BDD9C2E009C2CCA;
+					};
+				};
+			};
+			buildConfigurationList = 74A853C31BDD9C2E009C2CCA /* Build configuration list for PBXProject "RestaurantEZ" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74A853BF1BDD9C2E009C2CCA;
+			productRefGroup = 74A853C91BDD9C2E009C2CCA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74A853C71BDD9C2E009C2CCA /* RestaurantEZ */,
+				74A853DE1BDD9C2E009C2CCA /* RestaurantEZTests */,
+				74A853E91BDD9C2E009C2CCA /* RestaurantEZUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74A853C61BDD9C2E009C2CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74081E781BE813CF00DCFFD0 /* pandaexpress.png in Resources */,
+				74081E7C1BE8183500DCFFD0 /* doh.wav in Resources */,
+				74A853D91BDD9C2E009C2CCA /* LaunchScreen.storyboard in Resources */,
+				74081E861BE81DAE00DCFFD0 /* jazzmans.png in Resources */,
+				74081E8A1BE824B500DCFFD0 /* randalls.png in Resources */,
+				74081E721BE8070200DCFFD0 /* chicken.wav in Resources */,
+				74081E641BE8069700DCFFD0 /* tacobell.png in Resources */,
+				74081E671BE8069700DCFFD0 /* einsteinbagels.png in Resources */,
+				74081E6F1BE8070200DCFFD0 /* burger.wav in Resources */,
+				74081E701BE8070200DCFFD0 /* greasy.wav in Resources */,
+				74A853D61BDD9C2E009C2CCA /* Assets.xcassets in Resources */,
+				74081E801BE8184800DCFFD0 /* woohoo.wav in Resources */,
+				74081E761BE812D500DCFFD0 /* rathskeller.png in Resources */,
+				74081E7A1BE8171000DCFFD0 /* fattening.wav in Resources */,
+				74081E7E1BE8184100DCFFD0 /* something.wav in Resources */,
+				74081E821BE81B9400DCFFD0 /* danish.wav in Resources */,
+				74081E651BE8069700DCFFD0 /* subway.png in Resources */,
+				74081E691BE8069700DCFFD0 /* burgerking.png in Resources */,
+				74081E661BE8069700DCFFD0 /* panera.png in Resources */,
+				74081E681BE8069700DCFFD0 /* chickfila.png in Resources */,
+				74081E731BE8070200DCFFD0 /* beer.wav in Resources */,
+				74A853D11BDD9C2E009C2CCA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853DD1BDD9C2E009C2CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853E81BDD9C2E009C2CCA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74A853C41BDD9C2E009C2CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7488276B1BE3348B00CE9116 /* ColorStruct.swift in Sources */,
+				74855FF51BE04BA200CD570F /* Restaurant.swift in Sources */,
+				74A853CE1BDD9C2E009C2CCA /* ViewController.swift in Sources */,
+				74A853D41BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodeld in Sources */,
+				74A853CC1BDD9C2E009C2CCA /* AppDelegate.swift in Sources */,
+				74A853FD1BDDA10B009C2CCA /* RestaurantClass.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853DB1BDD9C2E009C2CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A853E41BDD9C2E009C2CCA /* RestaurantEZTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74A853E61BDD9C2E009C2CCA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74A853EF1BDD9C2E009C2CCA /* RestaurantEZUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		74A853E11BDD9C2E009C2CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A853C71BDD9C2E009C2CCA /* RestaurantEZ */;
+			targetProxy = 74A853E01BDD9C2E009C2CCA /* PBXContainerItemProxy */;
+		};
+		74A853EC1BDD9C2E009C2CCA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 74A853C71BDD9C2E009C2CCA /* RestaurantEZ */;
+			targetProxy = 74A853EB1BDD9C2E009C2CCA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		74A853CF1BDD9C2E009C2CCA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A853D01BDD9C2E009C2CCA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74A853D71BDD9C2E009C2CCA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74A853D81BDD9C2E009C2CCA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74A853F11BDD9C2E009C2CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		74A853F21BDD9C2E009C2CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74A853F41BDD9C2E009C2CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RestaurantEZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		74A853F51BDD9C2E009C2CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RestaurantEZ/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZ;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		74A853F71BDD9C2E009C2CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestaurantEZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantEZ.app/RestaurantEZ";
+			};
+			name = Debug;
+		};
+		74A853F81BDD9C2E009C2CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RestaurantEZTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RestaurantEZ.app/RestaurantEZ";
+			};
+			name = Release;
+		};
+		74A853FA1BDD9C2E009C2CCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestaurantEZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestaurantEZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		74A853FB1BDD9C2E009C2CCA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RestaurantEZUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.themoderntech.RestaurantEZUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RestaurantEZ;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74A853C31BDD9C2E009C2CCA /* Build configuration list for PBXProject "RestaurantEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A853F11BDD9C2E009C2CCA /* Debug */,
+				74A853F21BDD9C2E009C2CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A853F31BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZ" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A853F41BDD9C2E009C2CCA /* Debug */,
+				74A853F51BDD9C2E009C2CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A853F61BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A853F71BDD9C2E009C2CCA /* Debug */,
+				74A853F81BDD9C2E009C2CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74A853F91BDD9C2E009C2CCA /* Build configuration list for PBXNativeTarget "RestaurantEZUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74A853FA1BDD9C2E009C2CCA /* Debug */,
+				74A853FB1BDD9C2E009C2CCA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74A853D21BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74A853D31BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodel */,
+			);
+			currentVersion = 74A853D31BDD9C2E009C2CCA /* RestaurantEZ.xcdatamodel */;
+			path = RestaurantEZ.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74A853C01BDD9C2E009C2CCA /* Project object */;
+}
